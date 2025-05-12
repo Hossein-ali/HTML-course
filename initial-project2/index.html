@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <fieldset style="height: 300px; width: 250px; ;" >
+        <legend><b>اطلاعات ارسال و پرداخت</b></legend>
+
+        <br>
+        <label for="province"><b>استان :</b></label>
+
+        <input type="text" id="province" list="provinces" required>
+
+        <datalist id="provinces">
+
+            <option value="Yazd">یزد</option>
+            <option value="Tehran">تهران</option>
+            <option value="Shiraz">شیراز</option>
+            <option value="Mashhad">مشهد</option>
+
+        </datalist>
+        <br>
+        <br>
+        <label for="address"><b>آدرس :</b></label>
+        <textarea name="Full_address" id="address" rows="4"></textarea>
+
+        <br>
+        <br>
+        <input type="checkbox" id="self_delivery" >
+        <label for="self_delivery"><b>خودم بسته را تحویل میگیرم</b></label>
+
+        <br>
+        <br>
+        <input type="radio" value="mellat" id="mellat" checked>
+        <label for="mellat"><b>ملت</b></label>
+        <br>
+        <input type="radio" value="saderat" id="saderat">
+        <label for="saderat"><b>صادرات</b></label>
+        <br>
+        <input type="radio" value="parsian" id="parsian">
+        <label for="parsian"><b>پارسیان</b></label>
+        <br>
+        <br>
+        <button type="submit" id="submit"><b>ثبت سفارش</b></button>
+    </fieldset>
+
+</body>
+</html>

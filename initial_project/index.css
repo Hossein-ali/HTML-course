@@ -1,0 +1,12 @@
+body{
+    background-color: bisque;
+}
+p{
+    background-color: brown;
+}
+#pfooter{
+    color:cadetblue;
+}
+.pargraph{
+    margin: 10px;
+}

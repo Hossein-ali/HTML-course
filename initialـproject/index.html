@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exame</title>
+</head>
+<body>
+    
+    <h1> فرم دعوت نامه </h1>
+    <fieldset>
+        <legend><b>اطلاعات مهمان</b></legend>
+        
+        <label for="name"> <strong> نام و نام خانوادگی  </strong> </label>
+        <br>
+        <br>
+
+        <input type="text" name="Full_Name" id="name" required>
+
+        <br>
+        <br>
+        
+        <label for="email"> <strong>  ایمیل  </strong> </label>
+
+        <br>
+        <br>
+
+        <input type="email" name="Email_Address" id="email" required>
+
+        <br>
+        <br>
+
+        <input type="radio" value="male" id="male">
+        <label for="male"> <strong>  آقا  </strong> </label>
+        
+
+        <input type="radio" value="female" id="female">
+        <label for="female"> <strong>  خانم  </strong> </label>
+
+        <br>
+        <br>
+
+        <label for="attendant"><strong>  تعداد همراه  </strong></label>
+        <select name="attendant" id="attendant">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+
+        <br>
+        <br>
+
+        <button type="submit" id="submit"> <strong> ثبت </strong> </button>
+
+        <button type="reset" id="reset"> <strong> بازنشانی </strong> </button>
+    </fieldset>
+
+</body>
+</html>
