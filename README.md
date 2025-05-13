@@ -143,8 +143,8 @@
 
 برای فهم بیشتر تگ های `bloukqoute , q ` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/quote) مراجعه بفرمایید.
 
----
+
 برای فهم بیشتر تگ های `address ` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/simple-invitation) مراجعه بفرمایید.
 
 
-
+---
