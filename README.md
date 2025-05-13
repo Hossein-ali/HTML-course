@@ -58,6 +58,7 @@
 
 ---
 
+
 ## Time and date display Tag 
 
 
@@ -141,10 +142,68 @@
 توجه : این تگ هم به همانند تگ `blockqoute`، تگ `p`  درون تگ `address`قرار میگیرد
 
 
-برای فهم بیشتر تگ های `bloukqoute , q ` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/quote) مراجعه بفرمایید.
+برای فهم بیشتر تگ های `bloukqoute, q` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/quote) مراجعه بفرمایید.
 
 
-برای فهم بیشتر تگ های `address ` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/simple-invitation) مراجعه بفرمایید.
+برای فهم بیشتر تگ  `address` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/simple-invitation) مراجعه بفرمایید.
 
+
+---
+
+## Linls Tag
+| Syntax              | Description |
+| -----------         | ----------- |
+| `<a></a>`           |... تگ لینک برای رفتن به دیگر صفحات سایت و |
+| `attribute href`    |        مشخص کردن مقصد لینک|
+| `attribute target="_blank"`  |     جدید `tab` باز شدن صفحه در |
+| `attribute download="Logo"`|     لینک محتوای دانلود  |
+
+
+
+مثال : 
+
+```html
+<a href="https://www.google.com">سایت گوگل</a>
+```
+
+آدرس نسبی یک سند HTML به عنوان مقصد :
+
+فرض کنید که روی سیستم خود سندهای HTML زیر را طبق ساختار درختی زیر ایجاد کرده‌ایم:
+
+```
+.
+└── MyProject
+    ├── src
+    │   ├── index.html
+    │   ├── contact-us.html
+    │   └── products
+    │       ├── product1.html
+    │       └── details
+    │           └── product-detail.html
+    └── anotherSite
+        └── main.html
+
+```
+  : برویم به این صورت عمل میکنیم`contact-us.html`باشیم وبخواهیم آدرس سند `product-detail.html`بعنوان مثال اگر ما در سند
+
+```html
+<a href="..../contact-us.html">صفحه تماس با ما</a>
+```
+توجه : برای برگشت از پوشه خود `..` استفاده میکنیم و برای اینکه در مثال بالا به سند `contant-us.html ` برویم از `....` استفاده کردیم .
+چون دو پوشه باید برگردیم
+
+---
+
+از آن‌ جایی که این صفحه‌ طولانی است، بالای صفحه‌ لینک‌هایی ایجاد کرده‌ایم که بتوانیم با کلیک روی آن‌ها به بخش‌های مختلف همین صفحه پَرش کنیم. برای این کار ابتدا باید به المانی که می‌خواهیم به آن پَرش کنیم، attribute ای به نام `id` بدهیم، مانند زیر:
+
+```html
+<h2 id="introduction">Introduction</h2>
+```
+این attribute نمود ظاهری ندارد اما برای پیاده‌سازی این عملکرد به ما کمک می‌کند. حالا برای ایجاد لینکی که به این المان پَرش کند، مانند زیر عمل می‌کنیم:
+
+```html
+<a href="#introduction">Introduction</a>
+```
+برای فهم بیشتر تگ  `a` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/invitation-link) , این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/helpful-links) مراجعه بفرمایید.
 
 ---
