@@ -184,7 +184,7 @@
         └── main.html
 
 ```
-  : برویم به این صورت عمل میکنیم`contact-us.html`باشیم وبخواهیم آدرس سند `product-detail.html`بعنوان مثال اگر ما در سند
+بعنوان مثال برای رفتن از سند `product-detail.htm`به سند `contant-us.html` :
 
 ```html
 <a href="..../contact-us.html">صفحه تماس با ما</a>
