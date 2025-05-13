@@ -2,10 +2,10 @@
 
 ## Basic Tags
 
-| Syntax        | Description |
-| -----------   | ----------- |
-| `<!DOCTYPE html>`  |نسخه `HTML` ی که قرار است استفاده شود را به مرورگر میفهماند |
-| Paragraph     | Text        |
+| Syntax             | Description |
+| -----------        | ----------- |
+| `<!DOCTYPE html>`  |را مشخص میکند `html` نوع سند|
+| `<html></html>`    | در اینجا کدهای برنامه نوشته میشود ، همچنین در `head`,`body`این بین دو تگ   قرار میگیرد|
 
 
 
