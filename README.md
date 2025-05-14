@@ -253,3 +253,29 @@
 برای فهم بیشتر تگ های `List` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/todo-list) مراجعه بفرمایید.
 
 ---
+
+## Image & Video & Audio Tag
+
+| Syntax              | Description |
+| -----------         | ----------- |
+| `<img></img>`           |  تگ نمایش عکس   |
+| `<video></video>`           |   تگ نمایش ویدیو  |
+| `<source></source>`           |   برای انتخاب  فرمت‌های مختلف یک ویدئو یا یک فایل صوتی|
+| `<track kind="subtitles" src="subtitles_fa.vtt" srclang="fa" label="Farsi">`           |  می‌توان محتوای متنی (زیرنویس یا caption) برای ویدئوها نمایش داد  |
+| `<audio></audio>`           |  تگ نمایش فایل صوتی |
+| `attribute src=""`|مشخص کردن منبع عکس، ویدیو و فایل صوتی |
+| `attribute alt="تصویر لوگو "`|     مشخص کردن یک توضیح متنی برای عکس برای زمانی ک عکس به هردلیلی لود نمیشود |
+| `attribute   width="500" height="300"`|مشخص کردن عرض و ارتفاع   |
+| `attribute  loading = "lazy"`|بارگزاری نشدن عکس زمانی که در دید کاربر **نیست**  |
+| `attribute controls`|کنترل‌کننده‌هایی برای کم و زیاد کردن صدای ویدئو یا فایل صوتی، عقب و جلو بردن ویدئو و ایست و ادامه‌|
+| `attribute autoplay`|ویدئو یا فایل صوتی موردنظر را به محض بارگذاری نمایش داد|
+| `attribute loop`|ویدئو یا فایل صوتی پس از اتمام به صورت خودکار دوباره از ابتدا پخش شود|
+| `attribute poster`|تصویری که قبل از پخش شدن ویدئو روی پخش‌کننده‌ قرار می‌گیرد را تعیین کرد|
+---
+برای فهم بیشتر تگ های `img` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/invitation-logo) مراجعه بفرمایید.
+
+برای فهم بیشتر تگ های `video` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/ad-video) مراجعه بفرمایید.
+
+برای فهم بیشتر تگ های `audio` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/spanish-learning) مراجعه بفرمایید.
+
+---
