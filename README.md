@@ -339,3 +339,100 @@
 برای فهم بیشتر تگ های `div` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/initial-projext) مراجعه بفرمایید.
 
  ----
+
+ ## Table Tag
+
+ | Syntax              | Description |
+| -----------          | ----------- |
+| `<table></table>`    |  ایجاد یک جدول|
+| `<tr></tr>`          |  ایجاد سطر  |
+| `<th></th>`          |   داده‌های سطر اول جدول معمولاً مشخص‌کننده‌ی نوع داده‌‌های هر ستون هستند(مشخص کننده عنوان یک ستون)  |
+| `<td></td>`           |  برای مشخص کردن داده‌های هر سطر از المان |
+| `attribute border="1"`|برای نمایش حاشیه‌ی جداکننده میان خانه‌های جدول |
+| `attribute colspan = "2"`|به کمک این ویژگی میتوان تعداد ستون های یک خانه را اشغال کرد|
+| `attribute rowspan = "2"`|به کمک این ویژگی میتوان تعداد سطر های یک خانه را اشغال کرد|
+| `<caption></caption>`           |  توضیح مختصری (عنوان) به بالای یک جدول اضافه کرد|
+
+مثال : 
+
+```html
+<table border="1">
+  <tr>
+    <th>S.N</th>
+    <th>Item</th>
+    <th>Quantity</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Apple</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Mango</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Orange</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td colspan="2">Total</td>
+    <td>5</td>
+  </tr>
+</table>
+
+```
+![pi](https://quera.org/qbox/download/fylOFXC4g5/Screenshot%202024-06-24%20120625.png)
+
+### ساختاردهی به جدول :
+
+
+ | Syntax              | Description |
+| -----------          | ----------- |
+| `<thead></thead>`    |  است که  اطلاعاتی مربوط به ستون‌های جدول دارد header سطر اول مربوط به|
+| `<tbody></tbody>`          | سطر میانی جدول مربوط به داده‌های اصلی جدول است |
+| `<tfoot></tfoot>`          |   سطر آخر جدول مربوط به جمع‌بندی داده‌های جدول است
+
+مثال : 
+
+```html
+<table border="1" style="border-collapse: collapse">
+  <thead>
+    <tr>
+      <th>S.N</th>
+      <th>Item</th>
+      <th>Quantity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Apple</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Mango</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Orange</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="2">Total</td>
+      <td>5</td>
+    </tr>
+  </tfoot>
+</table>
+
+```
+برای فهم بیشتر تگ  `table` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/invitation-table)  , و این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/initial-projext2) مراجعه بفرمایید.
+
+
+---
