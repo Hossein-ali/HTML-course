@@ -264,6 +264,7 @@
 | `<track kind="subtitles" src="subtitles_fa.vtt" srclang="fa" label="Farsi">`           |  می‌توان محتوای متنی (زیرنویس یا caption) برای ویدئوها نمایش داد  |
 | `<audio></audio>`           |  تگ نمایش فایل صوتی |
 | `attribute src=""`|مشخص کردن منبع عکس، ویدیو و فایل صوتی |
+| `attribute type=""`|مشخص کردن فرمت ویدیو وفایل صوتی  |
 | `attribute alt="تصویر لوگو "`|     مشخص کردن یک توضیح متنی برای عکس برای زمانی ک عکس به هردلیلی لود نمیشود |
 | `attribute   width="500" height="300"`|مشخص کردن عرض و ارتفاع   |
 | `attribute  loading = "lazy"`|بارگزاری نشدن عکس زمانی که در دید کاربر **نیست**  |
@@ -272,6 +273,33 @@
 | `attribute loop`|ویدئو یا فایل صوتی پس از اتمام به صورت خودکار دوباره از ابتدا پخش شود|
 | `attribute poster`|تصویری که قبل از پخش شدن ویدئو روی پخش‌کننده‌ قرار می‌گیرد را تعیین کرد|
 ---
+مثال :
+```html
+<!-- تگ عکس -->
+
+ <img
+  src=""
+  alt="logo" 
+  width="300"
+  height="300"
+  />
+
+  <!-- تگ ویدیو  -->
+   <video controls>
+  <source src="" type="video/mp4">
+  <source src="" type="video/webm">
+  <source src="" type="video/ogg">
+  
+</video>
+
+<!-- تگ فایل صوتی  -->
+ <audio controls autoplay muted loop>
+  <source src="" type="audio/mp3">
+  مرورگر قادر به پخش فایل صوتی نیست.
+</audio>
+```
+---
+
 برای فهم بیشتر تگ های `img` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/invitation-logo) مراجعه بفرمایید.
 
 برای فهم بیشتر تگ های `video` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/ad-video) مراجعه بفرمایید.
