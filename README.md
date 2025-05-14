@@ -310,3 +310,32 @@
 برای فهم بیشتر تگ های `audio` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/spanish-learning) مراجعه بفرمایید.
 
 ---
+
+## div Tag
+
+| Syntax              | Description |
+| -----------         | ----------- |
+| `<div></div>`           |  `body`ایجاد یک تقسیم بندی در   |
+
+
+مثال :
+
+```html
+<div>
+    <span>دوره</span>
+    <span> HTML و CSS</span>
+</div>
+<div>
+    <span>درسنامه</span>
+    <span> DIVISION</span>
+</div>
+
+```
+
+تگ inline :تنها به اندازه‌ی عرض محتوای خود، فضا اشغال می‌کنند. برای مثال المان `span, a, b, img`
+
+تگ block :در طرف مقابل المان‌های block قرار دارند. این گونه المان‌ها برای نمایش به خط جدید رفته و همچنین به صورت افقی تمام فضایی که از container خود در اختیار دارند را اشغال می‌کنند. ارتفاع المان‌های block به اندازه‌ی ارتفاع محتوای آن‌ها خواهد بود. برای مثال المان `p, div, ol`
+
+برای فهم بیشتر تگ های `div` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/initial-projext) مراجعه بفرمایید.
+
+ ----
