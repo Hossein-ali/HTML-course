@@ -466,7 +466,7 @@
 
 7. `type = "range"` : Range Picker ایجاد یک 
  
- ** توجه  : اگر چندتا range picker  داشتیم باید مقدار `attribute name `  آن یکسان باشد !
+ ** توجه  : اگر چندتا range picker  داشتیم باید مقدار `attribute name `  آنها یکسان باشد !
 
 8. `type = "checkbox"` : برای انتخاب کردن یا انتخاب نکردن یک گزینه
 
