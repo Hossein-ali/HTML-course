@@ -187,9 +187,9 @@
 بعنوان مثال برای رفتن از سند `product-detail.htm`به سند `contant-us.html` :
 
 ```html
-<a href="..../contact-us.html">صفحه تماس با ما</a>
+<a href="../../contact-us.html">صفحه تماس با ما</a>
 ```
-توجه : برای برگشت از پوشه خود `..` استفاده میکنیم و برای اینکه در مثال بالا به سند `contant-us.html ` برویم از `....` استفاده کردیم .
+توجه : برای برگشت از پوشه خود `..` استفاده میکنیم و برای اینکه در مثال بالا به سند `contant-us.html ` برویم از `../../` استفاده کردیم .
 چون دو پوشه باید برگردیم
 
 ---
@@ -206,4 +206,48 @@
 ```
 برای فهم بیشتر تگ  `a` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/invitation-link)  , و این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/helpful-links) مراجعه بفرمایید.
 
+---
+
+## List Tag 
+
+| Syntax              | Description |
+| -----------         | ----------- |
+| `<ol></ol>`           |  تگ لیست ترتیبی  |
+| `<ul></ul>`           |  تگ لیست غیر ترتیبی  |
+| `<dl></dl>`           |  تگ لیست توضیحی |
+| `attribute type`    |        به لیست های ترتیبی برای **تغییر نشانگر** آن می توان اضافه کرد|
+| `attribute start`    |        به لیست های ترتیبی برای **شروع نقطه** نشانگر آن می توان اضافه کرد|
+| `attribute reversed`    |      ترتیب شماره‌دهی به آیتم‌ها را میتوان برعکس کرد   |
+
+
+مثال : 
+
+```html
+<!-- لیست غیر ترتیبی -->
+
+ <ul>
+  <li>Apple</li>
+  <li>Mango</li>
+  <li>Orange</li>
+  <li>Banana</li>
+</ul>
+
+<!-- لیست ترتیبی -->
+
+<ol type="1" start="0">
+  <li>Name</li>
+  <li>Address</li>
+  <li>Phone Number</li>
+</ol> 
+
+<!-- لیست توضیحی -->
+
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language</dd>
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets</dd>
+</dl>
+
+```
 ---
