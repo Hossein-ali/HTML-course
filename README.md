@@ -247,4 +247,9 @@
   <dt>CSS</dt>
   <dd>Cascading Style Sheets</dd>
 </dl>
+
 ```
+
+برای فهم بیشتر تگ های `List` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/todo-list) مراجعه بفرمایید.
+
+---
