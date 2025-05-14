@@ -298,15 +298,15 @@
   مرورگر قادر به پخش فایل صوتی نیست.
 </audio>
 ```
----
 
+**
+توجه : برای تگ های ویدیو و تصویر، `attribute width , height` وجود دارد ولی برای تگ فایل صوتی وجود ندارد
+
+---
 برای فهم بیشتر تگ های `img` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/invitation-logo) مراجعه بفرمایید.
 
 برای فهم بیشتر تگ های `video` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/ad-video) مراجعه بفرمایید.
 
 برای فهم بیشتر تگ های `audio` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/spanish-learning) مراجعه بفرمایید.
-
-**
-توجه : برای تگ های ویدیو و تصویر، `attribute width , height` وجود دارد ولی برای تگ فایل صوتی وجود ندارد
 
 ---
