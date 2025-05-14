@@ -436,3 +436,105 @@
 
 
 ---
+
+## Form Tag
+
+ | Syntax              | Description |
+| -----------          | ----------- |
+| `<form></form>`    |  اولین قدم برای ایجاد یک وب‌فرم استفاده از این تگ است|
+| `<input></input>`          | برای دریافت اطلاعات از کاربر المان |
+| `<lable></lable>`          |  یک عنوان یا برچسب مشخص کنیم برای ورودی خود|
+| `attribute type = ""`          | نوع ورودی دریافتی از کاربر را مشخص کرد|
+| `<textarea></textarea>`          | برای دریافت متن‌های طولانی‌|
+
+ ### : attribute type مقادیر
+
+1. `type = "text"`   : مشخص می‌کند که هر نوع متنی قابل قبول است
+
+2. `type = "email"`   : باعث می‌شود تا به کاربر ایمیل‌هایی که قبلاً وارد 
+کرده‌است پیشنهاد داده شود
+3. `type = "password"` : متن نوشته شده در المان، مخفی نمایش داده می‌شود 
+
+4. `type = "color"` :  این امکان را به کاربر می‌دهد تا رنگ مورد نظر خود را از 
+ انتخاب کند ، Color Picker طریق
+5. `type = "date"` : می‌توان از کاربر یک تاریخ مشخص دریافت کرد
+
+6. `type = "file"` : برای فراهم کردن امکان انتخاب فایل برای آپلود
+
+7. `type = "range"` : Range Picker ایجاد یک 
+ 
+ ** توجه  : اگر چندتا range picker  داشتیم باید مقدار `attribute name `  آن یکسان باشد !
+
+8. `type = "checkbox"` : برای انتخاب کردن یا انتخاب نکردن یک گزینه
+
+9. `type = "radio"` : انتخاب میان چند گزینه 
+
+
+---
+| Syntax              | Description |
+| -----------          | ----------- |
+| `<select></select>`    |dropdown یکی از راه‌های اصلی ایجاد |
+
+مثال : 
+
+```html 
+
+<label for="pets">Pets:</label>
+<select id="pets">
+  <option value="dog">Dog</option>
+  <option value="cat">Cat</option>
+</select>
+
+```
+
+![pi](https://quera.org/qbox/download/QjResf1q04/html-form-inputs-select-open.png)
+
+---
+
+| Syntax              | Description |
+| -----------          | ----------- |
+| `<fieldset></fieldset>`    |می‌توان چند المان ورودی که در یک گروه خاص قرار می‌گیرند را دسته بندی کرد|
+| `<legend></legend>`    |عنوان یا برچسب جدول|
+
+مثال : 
+
+```html
+
+<fieldset>
+  <legend>Name</legend>
+  <label for="firstname">First name:</label>
+  <br />
+  <input type="text" id="firstname" name="firstname">
+  <br />
+  <label for="lastname">Last name:</label>
+  <br />
+  <input type="text" id="lastname" name="lastname">
+</fieldset>
+
+```
+![pi](https://quera.org/qbox/download/DJn08cny6o/html-form-inputs-legend.png)
+
+---
+| Syntax              | Description |
+| -----------          | ----------- |
+| `<datalist></datalist>`    |تنها به کاربر چند گزینه پیشنهاد بدیم اما کاربر بتواند ورودی دلخواه خود را نیز وارد کند|
+
+مثال : 
+
+```html
+
+<label for="country-choice">Choose a country:</label>
+<input list="country-options" id="country-choice" name="country-choice">
+<datalist id="country-options">
+  <option value="Australia"></option>
+  <option value="Austria"></option>
+  <option value="America"></option>
+  <option value="Nepal"></option>
+</datalist>
+
+```
+![pi](https://quera.org/qbox/download/rETbK7o6SF/html-form-inputs-datalist.png)
+
+برای فهم بیشتر تگ  `form` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/initial%D9%80project)  , و این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/initial-project2) مراجعه بفرمایید.
+
+---
