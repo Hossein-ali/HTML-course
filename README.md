@@ -306,4 +306,7 @@
 
 برای فهم بیشتر تگ های `audio` به این [تمرین](https://github.com/Hossein-ali/HTML-course/tree/master/spanish-learning) مراجعه بفرمایید.
 
+**
+توجه : برای تگ های ویدیو و تصویر، `attribute width , height` وجود دارد ولی برای تگ فایل صوتی وجود ندارد
+
 ---
